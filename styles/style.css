@@ -1,0 +1,17 @@
+* body{
+        margin: 0%;  
+        padding: 0%;
+        background-color: rgb(31, 31, 71);       
+}
+/*navegation*/
+nav{
+
+      display: flex;            
+}
+nav ul li{
+                  list-style: none;
+                  display: flex;
+}
+nav ul li a{
+                  text-decoration: none;
+}
