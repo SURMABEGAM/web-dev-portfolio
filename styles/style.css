@@ -1,8 +1,12 @@
 * body{
 
-        background-color: rgb(31, 31, 71);       
+        background-color: rgb(252, 252, 252);  
+           
 }
-
+.header{
+         background-image: url(../image/developer.png),url(../image/header-bg.png);
+         background-repeat: no-repeat;
+}
 nav{
 
                   display: flex;
@@ -61,28 +65,20 @@ nav button{
 }
 /* p tag */
 .text.item {
-                  color: rgb(206, 201, 201);
+                  color: rgb(43, 34, 34);
                   font-size: 18px;
 
 }
 /* section */
-.hero {
-                  display: flex;
-                  justify-content: space-between;
+.header-container {
+                   display: flex;
+                   justify-content: space-between;
                   align-items: center;
-                  padding: 50px 100px;
 }
-.hero img {
+img {
                   width: 400px;
                   height: 400px;
                   
 }
 /* about section */
-.about {
-                  justify-content: center;
-                  align-items: center;
-                 margin: 50px 200px;
-                 padding: 50px 200px;
-                 text-align: center;
-}
 
