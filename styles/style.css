@@ -1,13 +1,25 @@
 * body{
+                  margin: 0;
+                  padding: 0;
+                  font-family: 'Poppins', sans-serif;
 
-        background-color: rgb(252, 252, 252);  
-           
 }
+/* --main-- */
+ main{
+            max-width: 1140px;
+            margin: 0 auto;
+ }
+ main section{
+                 margin-top:130px;
+                 margin-bottom: 130px;
+ }
+
 .header{
 
          background-image: url(../image/developer.png),url(../image/header_bg.png);
          background-repeat: no-repeat;
          background-position: top left , bottom right;
+         
 }
 nav{
 
@@ -71,8 +83,8 @@ nav button{
                   font-size: 16px;
 
 }
-.bg.color{
-                  background-color: #FFF8F3;
+.secandary-bg{
+                  background-color: #fef4ed;
 }        
 /* header*/
  .header-content{
@@ -83,7 +95,7 @@ nav button{
                   padding-left: 230px;
                   padding-right: 30px;
 }
-img {
+.profile {
                   width: 400px;
                   height: 400px;
                   
@@ -95,9 +107,9 @@ img {
                   align-items: center;
                   border: 1psx olid rgb(232, 89, 89); 
                   border: none;
-                  margin: 50px 200px;
-                  padding-left: 200px;
-                  padding-right: 100px;
+                  margin-top:100px ;
+                 padding: 130px 150px;
+
                 
 }
 h2{
@@ -108,8 +120,39 @@ h2{
 .description{
                   display: flex;
                   flex-direction:row;
-                  gap: 20px;
+                  gap: 25px;
                   justify-content: center;
                   align-items: center;
 }
+/*hero section */
+
+ 
+                 
+                  
+
+.primary{
+                  margin-bottom:50px ;
+                  text-align: center;
+}
+/*Skills section */
+.skill-container{
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  gap: 20px;
+                  justify-content: center;
+}    
+.skill{
+                 padding: 40px;
+                 border-radius: 5px;
+                 box-shadow: 0px 6px  50px 0 rgb(244, 230, 230);
+}   
+.skill-description{
+                  padding: 10px 0px;
+                 align-items: center;
+}
+
+
+
+
 
