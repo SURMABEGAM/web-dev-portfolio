@@ -70,7 +70,6 @@ nav button{
                   border: none;
                   padding: 10px 20px;
                   border-radius: 5px;
-                  cursor: pointer;
 
 }
 .btn.item:hover {
@@ -150,6 +149,40 @@ h2{
 .skill-description{
                   padding: 10px 0px;
                  align-items: center;
+}
+.section title{
+                  text-align: center;
+                  font-size: 30px;
+                  font-weight: 700;
+}
+.resume-contriner{
+                  display: flex;
+                  gap: 20px;
+                  justify-content: center;
+}
+.resume-colum-title{
+                 
+               
+                  justify-content: center;
+                 align-items: center;
+}
+.experience-title{
+                  
+                  
+}
+.experience-sub-title{
+                  margin: 0px;
+}
+.experience-description{
+                  padding-bottom: 20px;
+}
+.text.center-Download .CV{ 
+                   margin: 25px auto;
+                  text-align: center;
+                  padding: 20px;
+                  font-size: 20px;  
+
+
 }
 
 
